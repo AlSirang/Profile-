@@ -69,6 +69,45 @@ a:hover{
     font-weight: bold;
 }
 
+/* Medai Queries */
+@media screen and (max-width:992px){
+    .menu{
+        width: 100%;
+    }
+    .container{
+        padding: 4.5rem 5rem 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cover-pic{
+        background-image: url("../images/cover-medium.jpg");
+    }
+    .profile-pic{
+        text-align: center;
+    }
+    .container{
+        padding: 4.5rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 635px){
+    .cover-pic{
+        background-image: url("../images/cover-small.jpg");
+    }    
+    .pp-cont{
+        text-align: center;
+    }
+    .main{
+        grid-template-columns: 1fr;
+    }
+    a{
+        text-decoration: underline;
+    }
+}
+
+
+
 /* temporary css */
 .note{
     margin-top: 20%;
