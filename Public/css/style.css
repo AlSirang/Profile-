@@ -7,29 +7,64 @@
 body{
     background-color: #121212;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 .container{
-    margin: 2.5rem 4rem 1rem;
+    padding: 4.5rem 7.5rem 1rem;
 }
 .main{
     display: grid;
     grid-template-columns: 0.4fr 0.6fr;
     grid-gap: 50px;
-    width: 80%;
+    line-height: 1.5;
 }
 
 .cover-pic{
-    background-color: rgb(119, 72, 72);
+    background-color: #121212;
     background-image: url("../images/cover-large.jpg");
-    /* background-position: ; */
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 1rem 4rem 0;
-
 }
 
 .profile-pic{
-    background-color: #534f4a;
+    background-color: #121212;
     width: 250px;
     border-radius: 50%;
     border: 2px solid #000;
+}
+.intro{
+    line-height: 1.8;
+}
+.menu{
+    width: 70%;
+}
+
+.icon{
+    color: #fff;
+    padding-right: 5px; 
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: color ease-in-out 0.5s;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(179, 46, 96);
+}
+
+.nav{
+    padding-top: 15px;
+    line-height: 1.7;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
 }
