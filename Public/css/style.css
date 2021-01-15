@@ -21,7 +21,7 @@ body{
 
 .cover-pic{
     background-color: #121212;
-    background-image: url("../images/cover-large.jpg");
+    background-image: url("../images/cover-large.webp");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ a:hover{
 
 @media screen and (max-width:768px){
     .cover-pic{
-        background-image: url("../images/cover-medium.jpg");
+        background-image: url("../images/cover-medium.webp");
     }
     .profile-pic{
         text-align: center;
@@ -93,7 +93,7 @@ a:hover{
 
 @media screen and (max-width: 635px){
     .cover-pic{
-        background-image: url("../images/cover-small.jpg");
+        background-image: url("../images/cover-small.webp");
     }    
     .pp-cont{
         text-align: center;
